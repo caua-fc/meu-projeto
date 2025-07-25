@@ -1,3 +1,5 @@
-mensagem = "Hello World! Utilizando Git ecom VScode"
+mensagem = "Hello World!"
 print(mensagem)
-print("Adicinando nova branch")
+def saudacao(nome):
+    print(f"Seja bem-vindo, {nome}!")
+saudacao("Asimov!")
